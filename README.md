@@ -1,12 +1,12 @@
-# Hotel Revenue Analysis
+# 🏨 Hotel Revenue Analysis
 
-**Python · Power BI · 119,389 reservations · 2015–2017**
+** Python · Power BI · 119,389 reservations · 2015–2017**
 
 The hotel was growing. Revenue up, ADR up. But when I calculated what it *could* have made versus what actually landed in the books, the gap was hard to ignore. That gap became the whole project.
 
 -----
 
-## The data
+## 🗂️ The data
 
 Three CSV files from Kaggle, one per year, merged and cleaned in Python before anything else. 
 Before cleaning: 119,390 rows and 32 columns. 
@@ -17,14 +17,14 @@ Only 2016 is a complete year. 2015 starts in July and 2017 ends in August. That 
 
 -----
 
-## What Python did before Power BI
+## 🐍 What Python did before Power BI
 
 The script merged the three files, removed bad values and treated nulls. From there, dates were broken into more useful dimensions, categorical fields got readable labels and new classification columns were built to support the analysis. The file was also prepared with future analysis in mind. 
 Not everything built here appears in this version, but it will be ready when the next question comes up. The result went into Power BI as a clean file ready to answer business questions.
 
 -----
 
-## The dashboard
+## 📊 The dashboard
 
 <!--![Dashboard Overview](Overview.png)-->
 
@@ -32,7 +32,7 @@ I kept the dashboard intentionally lean. Five pages, each answering one question
 
 -----
 
-## Page 1 · Overview
+## 🔍 Page 1 · Overview
 
 ![Overview](Overview.png)
 
@@ -40,7 +40,7 @@ The starting point. Two lines on a chart that tell the whole story before you re
 
 -----
 
-## Page 2 · Revenue Drivers
+## 💰 Page 2 · Revenue Drivers
 
 ![Revenue Drivers](Revenue.png)
 
@@ -48,7 +48,7 @@ Volume looked fine. Efficiency told a different story. This page is about not ho
 
 -----
 
-## Page 3 · Seasonality
+## 📅 Page 3 · Seasonality
 
 ![Seasonality](Seasonality.png)
 
@@ -56,7 +56,7 @@ The monthly chart uses 2016 only. Since 2015 and 2017 are partial years, combini
 
 -----
 
-## Page 4 · Cancellations
+## ❌ Page 4 · Cancellations
 
 ![Cancellation](Cancellation.png)
 
@@ -64,7 +64,7 @@ The color coding on the lead time chart is deliberate. It’s not just showing r
 
 -----
 
-## Page 5 · Action Plan
+## 🎯 Page 5 · Action Plan
 
 ![Action Plan](Action_Plan.png)
 
@@ -72,7 +72,7 @@ The numbers here come from 2016 only. It’s the only complete year in the datas
 
 -----
 
-## Decisions worth knowing about
+## 💡 Decisions worth knowing about
 
 **The duplicate rows**
 
@@ -92,7 +92,7 @@ There’s no revenue column in the source. I calculated it as ADR multiplied by 
 
 -----
 
-## Tools and measures
+## 🛠️ Tools and measures
 
 |                |                                      |
 |----------------|--------------------------------------|
@@ -127,6 +127,6 @@ Cancellation Opportunity = [Lost Revenue] * 0.5
 
 -----
 
-## Want to go deeper?
+## 🚀 Want to go deeper?
 
 This is the macro view. There’s a more detailed analysis waiting: room type mix, hotel-level differences across seasons, guest profile by channel. If that’s interesting to you, I’d be glad to walk through it.
