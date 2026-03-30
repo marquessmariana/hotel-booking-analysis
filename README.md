@@ -1,6 +1,6 @@
 # 🏨 Hotel Revenue Analysis
 
-** Python · Power BI · 119,389 reservations · 2015–2017**
+**Python · Power BI · 119,389 reservations · 2015–2017**
 
 The hotel was growing. Revenue up, ADR up. But when I calculated what it *could* have made versus what actually landed in the books, the gap was hard to ignore. That gap became the whole project.
 
